@@ -1,18 +1,67 @@
-import logo from './logo.svg';
-import './App.css';
-import { GradientsDemo } from './components/gradients';
-import { TextGradientsDemo } from './components/textGradientsDemo';
-import { Web3Colors } from './components/web3colors';
-import { ColorsComponent } from './components/colorsComponent';
+import logo from "./logo.svg";
+import "./App.css";
+import { GradientsDemo } from "./components/gradients";
+import { TextGradientsDemo } from "./components/textGradientsDemo";
+import { Web3Colors } from "./components/web3colors";
+import { ColorsComponent } from "./components/colorsComponent";
+import { useState } from "react";
+import { colors } from "./components/colors";
 
 function App() {
+  const [selComponent, setSelComponent] = useState("text-gradients");
+
+  function switchComponent(evt, item) {
+    debugger;
+    setSelComponent(item);
+  }
+
+  var items = {
+    "text-gradients": <TextGradientsDemo />,
+    "w3-colors": <Web3Colors />,
+    "gradients-demo": <GradientsDemo />,
+    colors: <ColorsComponent />,
+  };
+
   return (
     <div className="App">
+      <nav>
+        <ol>
+          <li
+            onClick={(evt) => switchComponent(evt, "text-gradients")}
+            name="text-gradients"
+            className="nav-item"
+          >
+            {" "}
+            Text Gradients{" "}
+          </li>
+          <li
+            onClick={(evt) => switchComponent(evt, "w3-colors")}
+            name="w3-colors"
+            className="nav-item"
+          >
+            {" "}
+            W3 CSS colors
+          </li>
+          <li
+            onClick={(evt) => switchComponent(evt, "gradients-demo")}
+            name="gradients-demo"
+            className="nav-item"
+          >
+            {" "}
+            GradientsDemo
+          </li>
+          <li
+            onClick={(evt) => switchComponent(evt, "colors")}
+            name="colors"
+            className="nav-item"
+          >
+            {" "}
+            Colors
+          </li>
+        </ol>
+      </nav>
 
-      {/* <GradientsDemo /> */}
-      {/* <TextGradientsDemo/> */}
-      {/* <Web3Colors/> */}
-      <ColorsComponent/>
+      {items[selComponent]}
     </div>
   );
 }

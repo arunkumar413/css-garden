@@ -1,0 +1,13 @@
+.nav-item {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 10px;
+
+}
+
+.nav-item:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
