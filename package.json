@@ -1,8 +1,8 @@
 {
-  "name": "css-utility",
+  "name": "css-garden",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://arunkumar413.github.io/css-utility",
+  "homepage": "https://arunkumar413.github.io/css-garden",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
