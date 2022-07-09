@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/css-utility/static/css/main.7d65d206.css",
-    "main.js": "/css-utility/static/js/main.58bbe7a6.js",
-    "static/js/787.3c515685.chunk.js": "/css-utility/static/js/787.3c515685.chunk.js",
-    "static/media/logo.svg": "/css-utility/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/css-utility/index.html",
-    "main.7d65d206.css.map": "/css-utility/static/css/main.7d65d206.css.map",
-    "main.58bbe7a6.js.map": "/css-utility/static/js/main.58bbe7a6.js.map",
-    "787.3c515685.chunk.js.map": "/css-utility/static/js/787.3c515685.chunk.js.map"
+    "main.css": "/css-garden/static/css/main.7d65d206.css",
+    "main.js": "/css-garden/static/js/main.0376c800.js",
+    "static/js/787.93ae71cc.chunk.js": "/css-garden/static/js/787.93ae71cc.chunk.js",
+    "static/media/logo.svg": "/css-garden/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/css-garden/index.html",
+    "main.7d65d206.css.map": "/css-garden/static/css/main.7d65d206.css.map",
+    "main.0376c800.js.map": "/css-garden/static/js/main.0376c800.js.map",
+    "787.93ae71cc.chunk.js.map": "/css-garden/static/js/787.93ae71cc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d65d206.css",
-    "static/js/main.58bbe7a6.js"
+    "static/js/main.0376c800.js"
   ]
 }
