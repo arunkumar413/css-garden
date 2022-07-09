@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/css-garden/static/css/main.7d65d206.css",
-    "main.js": "/css-garden/static/js/main.0376c800.js",
+    "main.css": "/css-garden/static/css/main.ba4ef04d.css",
+    "main.js": "/css-garden/static/js/main.04a469b9.js",
     "static/js/787.93ae71cc.chunk.js": "/css-garden/static/js/787.93ae71cc.chunk.js",
     "static/media/logo.svg": "/css-garden/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/css-garden/index.html",
-    "main.7d65d206.css.map": "/css-garden/static/css/main.7d65d206.css.map",
-    "main.0376c800.js.map": "/css-garden/static/js/main.0376c800.js.map",
+    "main.ba4ef04d.css.map": "/css-garden/static/css/main.ba4ef04d.css.map",
+    "main.04a469b9.js.map": "/css-garden/static/js/main.04a469b9.js.map",
     "787.93ae71cc.chunk.js.map": "/css-garden/static/js/787.93ae71cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d65d206.css",
-    "static/js/main.0376c800.js"
+    "static/css/main.ba4ef04d.css",
+    "static/js/main.04a469b9.js"
   ]
 }
