@@ -19,14 +19,15 @@ export function NewWeb3Colors() {
   const elements = Object.keys(converted).map(function (item, index) {
     return (
       <div
+        onClick={(evt) => copyColor(item, evt)}
         key={index.toString()}
         style={{
           backgroundColor: converted[item].backgroundColor,
           height: 100,
         }}
       >
-        <span onClick={(evt) => copyColor(item, evt)}>
-          {item} {converted[item].backgroundColor}{" "}
+        <span>
+          {item} <br /> {converted[item].backgroundColor}{" "}
         </span>
       </div>
     );
