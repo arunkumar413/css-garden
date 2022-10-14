@@ -15,6 +15,7 @@ export function Web3Colors(props) {
 
 
     var elements = Object.keys(w3Colors).map(function (e, i) {
+        console.log(w3Colors)
         return (
             <div key={i.toString()} style={gradientDivStyle} className={w3Colors[e]}          >
 

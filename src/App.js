@@ -6,6 +6,7 @@ import { Web3Colors } from "./components/web3colors";
 import { ColorsComponent } from "./components/colorsComponent";
 import { useState } from "react";
 import { colors } from "./components/colors";
+import { NewWeb3Colors } from "./components/newW3Colors";
 
 function App() {
   const [selComponent, setSelComponent] = useState("text-gradients");
@@ -20,6 +21,7 @@ function App() {
     "w3-colors": <Web3Colors />,
     "gradients-demo": <GradientsDemo />,
     colors: <ColorsComponent />,
+    newW3colors: <NewWeb3Colors />,
   };
 
   return (
@@ -57,6 +59,15 @@ function App() {
           >
             {" "}
             Colors
+          </li>
+
+          <li
+            onClick={(evt) => switchComponent(evt, "newW3colors")}
+            name="colors"
+            className="nav-item"
+          >
+            {" "}
+            new w3 colors
           </li>
         </ol>
       </nav>
